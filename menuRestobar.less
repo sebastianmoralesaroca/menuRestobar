@@ -1,0 +1,42 @@
+@import "./_utilities.less" ;
+
+body {
+
+    .containerPrincipal {
+
+        h1 {
+            font-family: sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+            color: black;
+            text-align: center;
+            margin-top: 60px;
+            display: block;
+        }
+
+        .selectores {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 70px;
+
+            button {
+                .btnSelector();
+            }
+        }
+
+        .containerGrid {
+            margin-left: 10%;
+            margin-right: 10%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .card {
+                display: grid;
+                grid-template-columns: 30% 70%;
+                grid-template-rows: 1fr;
+                margin-bottom: 20px;
+                .itemElement()
+            }
+        }
+    }
+}

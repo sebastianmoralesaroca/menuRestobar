@@ -1,0 +1,19 @@
+{
+  "name": "menurestobar",
+  "version": "1.0.0",
+  "description": "Menu de Restobar con botones que ocupan una funcion de filtros del menu.",
+  "main": "menuRestobar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianmoralesaroca/menuRestobar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastianmoralesaroca/menuRestobar/issues"
+  },
+  "homepage": "https://github.com/sebastianmoralesaroca/menuRestobar#readme"
+}

@@ -1,0 +1,175 @@
+.itemElement img {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  width: 150px;
+  height: 150px;
+  border: solid 3px chocolate;
+  border-radius: 3%;
+  vertical-align: text-top;
+}
+.itemElement h2 {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  display: inline;
+  margin-top: 30px;
+}
+.itemElement span {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: chocolate;
+  display: inline;
+  margin-top: 10px;
+}
+.itemElement p {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+  display: block;
+  width: 400px;
+  margin-top: 60px;
+}
+.btnSelector {
+  text-align: center;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid 2px chocolate;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: transparent;
+}
+.btnSelector a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: chocolate;
+}
+body .containerPrincipal h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-top: 60px;
+  display: block;
+}
+body .containerPrincipal .selectores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 70px;
+}
+body .containerPrincipal .selectores button {
+  text-align: center;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid 2px chocolate;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: transparent;
+}
+body .containerPrincipal .selectores button a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: chocolate;
+}
+body .containerPrincipal .containerGrid {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+body .containerPrincipal .containerGrid .card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 70%;
+  grid-template-columns: 30% 70%;
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 20px;
+}
+body .containerPrincipal .containerGrid .card > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+body .containerPrincipal .containerGrid .card > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+body .containerPrincipal .containerGrid .card img {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  width: 150px;
+  height: 150px;
+  border: solid 3px chocolate;
+  border-radius: 3%;
+  vertical-align: text-top;
+}
+body .containerPrincipal .containerGrid .card h2 {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  display: inline;
+  margin-top: 30px;
+}
+body .containerPrincipal .containerGrid .card span {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: chocolate;
+  display: inline;
+  margin-top: 10px;
+}
+body .containerPrincipal .containerGrid .card p {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+  display: block;
+  width: 400px;
+  margin-top: 60px;
+}
